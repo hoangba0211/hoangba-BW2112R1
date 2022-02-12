@@ -1,0 +1,15 @@
+p {
+    background-color: aquamarine;
+}
+div p{
+    color: red;
+}
+div  div p {
+    font-weight: bolder;
+}
+body > p {
+    font-size: 40px;
+}
+body > div > p:first-child{
+    text-decoration: underline;
+}
