@@ -10,21 +10,29 @@
 /* Mobile reponsive */
 @media screen and (max-width:739px){
     #header {
-        height: 120px;
+        height: 140px;
         display: block;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
     }
     #header img {
+        display: block;
+        margin: auto;
         width: 80px;
-        margin: 10px 0 0 0;
+        padding: 10px 0 0 0;
+        /* margin: 10px 0 0 0; */
     }
     #header input {
         height: 30px;
         width: 80%;
-        padding: 12px 0;
-        margin: 50px 0 0 0;
+        padding: 15px 0;
+        margin: auto;
+        border-radius: 4px;
+        position: relative;
+        left: 10%;
+        right: 10%;
+        top: 10px;
     }
     #header button {
         display: none;
