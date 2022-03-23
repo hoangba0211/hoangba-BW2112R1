@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px) {
+  #container {
+    background-color: #95FEF3;
+    border: 2px solid #900C3F;
+    font-size: 14px;
+  }
+  #container h1, #container p {
+    color: #900C3F;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 739px) {
+  #container {
+    background-color: #070A5C;
+    border: 2px solid #F1FF89;
+    font-size: 20px;
+  }
+  #container h1, #container p {
+    color: #F1FF89;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #container {
+    background-color: #fff;
+    border: 2px solid #065805;
+    font-size: 28px;
+  }
+  #container h1, #container p {
+    color: #065805;
+  }
+}
+/*# sourceMappingURL=style_1.css.map */

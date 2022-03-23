@@ -1,0 +1,56 @@
+$font-family: Tahoma ;
+$font-size : 16px;
+$primary-light: #ADC5CF ;
+$primary-drak: #3596B5 ;
+$nav-height: 50px;
+$container-width: 650px;
+
+
+body {
+    font-family: $font-family;
+    font-size: $font-size;
+}
+#container {
+    max-width: $container-width;
+    margin: auto;
+    nav {
+        ul {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap:wrap ;
+            list-style-type: none;
+            padding: 0;
+            li {
+                flex-grow: 1;
+                padding: 12px;
+                border:2px solid $primary-drak;
+                background-color: $primary-light;
+                line-height: $nav-height;
+                text-align: center;
+                transition: .5s;
+            }
+            li:hover {
+                background-color: $primary-drak;
+            }
+            li:hover a {
+                color:$primary-light;
+            }
+            li a {
+                color: $primary-drak;
+                text-decoration: none;
+            }
+        }
+    }
+
+    main {
+        h1{
+            color: $primary-drak;
+        }
+        ul {
+            li {
+                text-align: justify;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

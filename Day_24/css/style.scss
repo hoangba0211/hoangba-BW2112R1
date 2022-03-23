@@ -1,0 +1,23 @@
+@mixin img-style($img-height) {
+    height: $img-height ;
+    border-radius: 5px;
+}
+.main-post {
+    img {
+       @include img-style(30%)
+    }
+
+    p {
+        color: #fff
+    }
+}
+
+.relate-post {
+    img {
+        @include img-style(100px)
+    }
+
+    p {
+        color: #b2b2b2;
+    }
+}
